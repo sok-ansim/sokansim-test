@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>대장암 자가진단</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- 메인 화면 -->
+    <div id="main-screen">
+      <img src="images/main.jpg" alt="메인 이미지" width="100%" />
+      <h1>대장암 자가진단 테스트</h1>
+      <button onclick="startTest()">테스트 시작</button>
+    </div>
+
+    <!-- 테스트 화면 -->
+    <div id="test-screen" style="display: none;">
+      <div id="question-box"></div>
+      <button id="nextBtn" onclick="nextQuestion()">다음</button>
+    </div>
+
+    <!-- 결과 화면 -->
+    <div id="result"></div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body {
+  font-family: '맑은 고딕', sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #007ACC;
+  margin-bottom: 20px;
+}
+
+#question-box img {
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+#question-box p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+button {
+  background-color: #007ACC;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+#result {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #d63031;
+}
